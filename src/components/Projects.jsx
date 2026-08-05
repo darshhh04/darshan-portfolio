@@ -44,7 +44,7 @@ function Projects() {
     <section id="work" className="px-6 max-w-6xl mx-auto py-28 border-t border-lineLight dark:border-line">
       <p className="font-mono text-sm text-accent mb-12">02 — projects</p>
 
-      {/* Featured project */}
+      //MAIN PROJECT FEATURED
       <div
         ref={headingRef}
         className={`grid md:grid-cols-2 gap-10 items-center pb-20 border-b border-lineLight dark:border-line transition-all duration-700 ${
@@ -86,7 +86,7 @@ function Projects() {
         </div>
       </div>
 
-      {/* Remaining projects */}
+      //PROJECT LIST
       <div
         ref={listRef}
         className={`mt-4 transition-all duration-700 ${

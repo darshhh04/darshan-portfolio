@@ -1,8 +1,5 @@
 import useReveal from "../hooks/useReveal";
 
-// Skills grouped by category, matching the original site
-// (with Express.js, MongoDB and Tailwind CSS added in from the
-// AI Legal Document Analyzer's real stack).
 const skillGroups = [
   {
     category: "Frontend",

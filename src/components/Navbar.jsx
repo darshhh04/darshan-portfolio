@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-// Links shown in the navbar. Each one scrolls to a section on the page.
+
 const navLinks = [
   { label: "Work", href: "#work" },
   { label: "Skills", href: "#skills" },
@@ -8,7 +8,7 @@ const navLinks = [
 ];
 
 function Navbar() {
-  // Tracks whether the mobile menu is open. Only used on small screens.
+  //MENU FOR PHONES
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
@@ -18,7 +18,6 @@ function Navbar() {
           darshan<span className="text-text">.dev</span>
         </a>
 
-        {/* Links for larger screens */}
         <nav className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
             <a
@@ -39,7 +38,7 @@ function Navbar() {
           </a>
         </nav>
 
-        {/* Hamburger button, only visible on small screens */}
+       //HAMBURGER
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           className="md:hidden font-mono text-sm text-text"
@@ -49,7 +48,6 @@ function Navbar() {
         </button>
       </div>
 
-      {/* Mobile menu, only rendered when open */}
       {isMenuOpen && (
         <nav className="md:hidden flex flex-col border-t border-line bg-background px-6 py-4 gap-4">
           {navLinks.map((link) => (

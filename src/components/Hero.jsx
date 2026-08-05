@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 
-// The roles that type themselves out one after another in the terminal line.
 const roles = ["web developer", "java programmer", "cse student"];
 
 function Hero() {
@@ -8,8 +7,7 @@ function Hero() {
   const [typedText, setTypedText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
 
-  // A small typewriter effect: types out the current role, pauses,
-  // deletes it, then moves on to the next role in the list.
+
   useEffect(() => {
     const currentRole = roles[roleIndex];
     let delay = isDeleting ? 40 : 80;

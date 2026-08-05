@@ -11,7 +11,6 @@ body {
   color: #edeae3;
 }
 
-/* Blinking cursor used next to the terminal-style tagline in the hero */
 .blinking-cursor {
   display: inline-block;
   width: 0.55ch;
@@ -31,7 +30,6 @@ body {
   }
 }
 
-/* Lines of text slide up and fade in, used for the hero heading */
 @keyframes riseIn {
   from {
     transform: translateY(100%);
@@ -47,7 +45,6 @@ body {
   animation: riseIn 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
-/* Respect people who have asked their OS to reduce motion */
 @media (prefers-reduced-motion: reduce) {
   .rise-in {
     animation: none;

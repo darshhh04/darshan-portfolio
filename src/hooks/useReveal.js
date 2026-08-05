@@ -1,9 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
-// A small hook that tells a component whether it has scrolled into view yet.
-// Usage: const [ref, isVisible] = useReveal();
-// Attach `ref` to the element you want to watch, then use `isVisible`
-// to switch between "hidden" and "visible" Tailwind classes.
+
 function useReveal() {
   const ref = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
@@ -16,7 +13,7 @@ function useReveal() {
       ([entry]) => {
         if (entry.isIntersecting) {
           setIsVisible(true);
-          observer.disconnect(); // only need to trigger this once
+          observer.disconnect(); 
         }
       },
       { threshold: 0.15 }
