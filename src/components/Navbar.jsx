@@ -8,7 +8,7 @@ const navLinks = [
 ];
 
 function Navbar() {
-  //MENU FOR PHONES
+  // MENU FOR PHONES
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
