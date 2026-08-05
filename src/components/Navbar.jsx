@@ -30,7 +30,7 @@ function Navbar() {
             </a>
           ))}
           <a
-            href="https://github.com/darshhh04/darshan-sPortfolio/blob/main/DARSHAN'S%20RESUME.pdf"
+            href="https://github.com/darshhh04/darshan-portfolio/blob/main/RESUME-DARSHAN.pdf"
             target="_blank"
             rel="noreferrer"
             className="font-mono text-sm px-4 py-2 border border-accent text-accent hover:bg-accent hover:text-background transition-colors"
