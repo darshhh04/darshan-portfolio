@@ -38,7 +38,6 @@ function Navbar() {
           </a>
         </nav>
 
-       //HAMBURGER
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           className="md:hidden font-mono text-sm text-text"
