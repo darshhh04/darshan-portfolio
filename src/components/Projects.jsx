@@ -1,4 +1,5 @@
 import useReveal from "../hooks/useReveal";
+import LegalDocDisplayPic from "./assets/legal_doc_display.jpg"
 
 const projects = [
   {
@@ -6,22 +7,22 @@ const projects = [
     description:
       "Upload a contract and get clause-by-clause risk analysis streamed back in real time, plus a chat interface to ask questions about the document.",
     tech: ["React", "Node.js", "Express", "MongoDB", "Socket.IO", "Tailwind"],
-    github: "[GITHUB LINK]",
-    demo: "[LIVE DEMO LINK]",
+    github: "https://github.com/darshhh04/legal_doc_analyser",
+    demo: "https://legaldocanalyzerdarshan.netlify.app/",
     featured: true,
   },
   {
     name: "Zentora",
     description: "A tour packages booking website.",
     tech: ["HTML5", "CSS3", "JavaScript"],
-    github: "[GITHUB LINK]",
+    github: "https://github.com/darshhh04/zentora",
     demo: "https://zentoratravels.netlify.app/",
   },
   {
     name: "Stakez",
     description: "A gambling website clone built to show how the games are rigged.",
     tech: ["HTML5", "CSS3", "JavaScript"],
-    github: "[GITHUB LINK]",
+    github: "https://github.com/darshhh04/stakez",
     demo: "https://stakez.netlify.app/",
   },
   {
@@ -52,7 +53,7 @@ function Projects() {
         }`}
       >
         <div className="aspect-video bg-surfaceLight dark:bg-surface border border-lineLight dark:border-line flex items-center justify-center">
-          <span className="font-mono text-xs text-mutedLight dark:text-muted">[PROJECT IMAGE]</span>
+          <span className="font-mono text-xs text-mutedLight dark:text-muted"><img src={LegalDocDisplayPic} alt="" /></span>
         </div>
 
         <div>
