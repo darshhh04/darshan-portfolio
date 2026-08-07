@@ -6,7 +6,7 @@ const projects = [
     name: "AI Legal Document Analyzer",
     description:
       "Upload a contract and get clause-by-clause risk analysis streamed back in real time, plus a chat interface to ask questions about the document.",
-    tech: ["React", "Node.js", "Express", "MongoDB", "Socket.IO", "Tailwind"],
+    tech: ["React", "Node.js", "Express", "MongoDB", "Tailwind"],
     github: "https://github.com/darshhh04/legal_doc_analyser",
     demo: "https://legaldocanalyzerdarshan.netlify.app/",
     featured: true,
