@@ -60,7 +60,7 @@ function Navbar() {
             </a>
           ))}
           <a
-            href="https://github.com/darshhh04/darshan-sPortfolio/blob/main/Darshan-Bhatarkar-Resume.pdf"
+            href="https://github.com/darshhh04/darshan-portfolio/blob/main/RESUME-DARSHAN.pdf"
             target="_blank"
             rel="noreferrer"
             className="font-mono text-sm text-accent"
